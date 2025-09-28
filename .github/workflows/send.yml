@@ -2,7 +2,7 @@ name: Send Telegram Message
 
 on:
   schedule:
-    - cron: "0 * * * *"   # 每小時 00 分執行一次
+    - cron: "20 * * * *"   # 每小時 00 分執行一次
   workflow_dispatch:       # 可以手動執行
 
 jobs:
